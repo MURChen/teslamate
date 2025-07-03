@@ -1,3 +1,5 @@
+# （AI 翻译） 自用，尝试翻译Grafana面板
+
 # TeslaMate
 
 [![CI](https://github.com/teslamate-org/teslamate/actions/workflows/devops.yml/badge.svg)](https://github.com/teslamate-org/teslamate/actions/workflows/devops.yml)
@@ -7,34 +9,34 @@
 [![docker image size](https://img.shields.io/docker/image-size/teslamate/teslamate/latest)](https://hub.docker.com/r/teslamate/teslamate)
 [![docker pulls](https://img.shields.io/docker/pulls/teslamate/teslamate?color=%23099cec)](https://hub.docker.com/r/teslamate/teslamate)
 
-A powerful, self-hosted data logger for your Tesla.
+一款强大的自托管特斯拉数据记录工具 
 
-- Written in **[Elixir](https://elixir-lang.org/)**
-- Data is stored in a **Postgres** database
-- Visualization and data analysis with **Grafana**
-- Vehicle data is published to a local **MQTT** Broker
+- 采用**[Elixir](https://elixir-lang.org/)**语言编写
+- 数据存储于**Postgres**数据库
+- 通过**Grafana**实现可视化与数据分析
+- 车辆数据发布至本地**MQTT**代理服务器
 
-## Documentation
+## 文档说明
 
-The documentation is available at [https://docs.teslamate.org](https://docs.teslamate.org/)
+完整文档请访问：[https://docs.teslamate.org](https://docs.teslamate.org/)
 
-## Features
+## 核心功能
 
-### General
+### 基础功能
 
-- High precision drive data recording
-- No additional vampire drain: the car will fall asleep as soon as possible
-- Automatic address lookup
-- Easy integration into Home Assistant (via MQTT)
-- Easy integration into Node-Red & Telegram (via MQTT)
-- Geo-fencing feature to create custom locations
-- Supports multiple vehicles per Tesla Account
-- Charge cost tracking
-- Import from TeslaFi and tesla-apiscraper
+- 高精度行驶数据记录
+- 零额外电量损耗：车辆可快速进入休眠状态
+- 自动地址解析
+- 轻松对接Home Assistant（通过MQTT协议）
+- 无缝集成Node-Red与Telegram（通过MQTT协议）
+- 地理围栏功能创建自定义区域
+- 支持单个特斯拉账户管理多台车辆
+- 充电成本统计
+- 支持从TeslaFi和tesla-apiscraper导入数据
 
-### Dashboards
+### 仪表板功能
 
-Sample screenshots of bundled dashboards can be seen by clicking the links below.
+点击下方链接查看预置仪表板的示例截图。
 
 - [Battery Health](https://docs.teslamate.org/docs/screenshots/#battery-health)
 - [Charge Level](https://docs.teslamate.org/docs/screenshots/#charge-level)
